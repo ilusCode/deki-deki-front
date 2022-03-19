@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let program of programs">
+            <div class="card">
+                <div class="card-header">
+                    # {{program.id}}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{program.title}}</h5>
+                    <p class="card-text">{{program.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
